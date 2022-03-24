@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- metadata -->
+     <meta charset="utf-8">
+    <meta name="description" content="User Input, with JavaScript">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Logan Rodriguez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.jpg">
+<link rel="icon" type="image/jpg" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/jpg" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/site.webmanifest">
+<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+
+    <!-- style -->
+      <link rel="stylesheet" href="./css/style.css">
+    <title>Your Address with JS</title>
+  </head>
+  <body>
+    <h1>User input with a JS file</h1>
+    <p>Please enter the following boxes and ask no further questions.</p>
+    <!-- script -->
+    <script src="./js/script.js"></script>
+       <!-- text fields -->
+        <p>
+      <form action="javascript: buttonClicked()">
+        <label for="sname">Street Name</label>
+        <input type="text" id="street-name" placeholder="Street Name"><br><br>
+        <label for="sname">Street Number</label>
+        <input type="number" id="street-number" placeholder="Street Number"><br><br>
+        <input type="submit" value="Enter">
+      </form>
+    </p>
+    <!-- where the users data is displayed -->
+        <div id="user-info">
+    </div>
+  </body>
+</html>
